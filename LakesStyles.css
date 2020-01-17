@@ -1,0 +1,29 @@
+h1{
+    color: rgb(13, 167, 214);
+    font-family: verdana;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 500px;
+}
+
+label
+{
+    text-align: center;
+    color: rgb(13, 167, 214);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+.dropdownhide
+{
+    display:none;
+}
+
+.centerDiv{
+
+padding-top: 50px;
+}
