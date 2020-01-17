@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <script src="lakes.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Lakes</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <h1>Lakes</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <label>Lakes in the city :</label>
+                <select name="lakes">
+                    <option disabled selected value class="dropdownhide">--Please select a value--</option>
+                    <option value="agara">Agara</option>
+                    <option value="kaik">Kaikondrahalli</option>
+                    <option value="putt">Puttenahalli</option>
+                    <option value="bell">Bellandur</option>
+                    <option value="brook">Brookfield</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+            <select id="lakesFrmJS">
+                <option disabled selected value class="dropdownhide" >--Please select a value--</option>
+            </select> 
+            </div>
+        </div>
+        <div class="row" style="padding-top: 50px">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6" >
+                <table class="table table-hover" >
+                    <thead>
+                        <tr>
+                            <th>Lake</th>
+                            <th>Area</th>
+                            <th>Pollution Level in (%)</th>
+                            <th>Steps Taken For Conservation</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="lakes.js"></script>
+</html>
